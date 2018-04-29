@@ -3,5 +3,6 @@ Rails.application.routes.draw do
   namespace :v1 do
     get "/pages" => "pages#index"
     get "/articles" => "aricles#index"
+    get "/peters" => "peters#index"
   end
 end
